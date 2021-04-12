@@ -32,6 +32,7 @@ function MyApp() {
     axios.delete('http://localhost:5000/users/'+characters[index].id);
 
     const updated = characters.filter((character, i) => {
+
       return i !== index
     });
 
